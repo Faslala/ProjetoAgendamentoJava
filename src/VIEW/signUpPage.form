@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="VIEW.signUpPage">
+  <grid id="27dc6" binding="signUpJPanel" layout-manager="GridLayoutManager" row-count="12" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="516"/>
+    </constraints>
+    <properties>
+      <background color="-8226"/>
+    </properties>
+    <border type="bevel-lowered" title="Registre-se">
+      <font name="Apple Chancery" style="1"/>
+    </border>
+    <children>
+      <component id="46cfe" class="javax.swing.JLabel" binding="lbFirst_Name">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4473925"/>
+          <font name="Apple Chancery" size="18" style="1"/>
+          <text value="Nome"/>
+        </properties>
+      </component>
+      <component id="8cd66" class="javax.swing.JTextField" binding="tfFirst_Name">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4473925"/>
+          <font name="Apple Chancery" size="18" style="0"/>
+        </properties>
+      </component>
+      <component id="af51f" class="javax.swing.JLabel" binding="lbLast_Name">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4473925"/>
+          <font name="Apple Chancery" size="18" style="1"/>
+          <text value="Sobrenome"/>
+        </properties>
+      </component>
+      <component id="1ef4f" class="javax.swing.JTextField" binding="tfLast_Name">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4473925"/>
+          <font name="Apple Chancery" size="18" style="0"/>
+        </properties>
+      </component>
+      <component id="89937" class="javax.swing.JLabel" binding="lbNickname">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4473925"/>
+          <font name="Apple Chancery" size="18" style="1"/>
+          <text value="Apelido"/>
+        </properties>
+      </component>
+      <component id="cd704" class="javax.swing.JTextField" binding="tfNickname">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4473925"/>
+          <font name="Apple Chancery" size="18" style="0"/>
+        </properties>
+      </component>
+      <component id="3132e" class="javax.swing.JLabel" binding="lbPhone_number">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4473925"/>
+          <font name="Apple Chancery" size="18" style="1"/>
+          <text value="Telefone (somente numeros)"/>
+        </properties>
+      </component>
+      <component id="6be0b" class="javax.swing.JTextField" binding="tfPhone_Number">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4473925"/>
+          <font name="Apple Chancery" size="18" style="0"/>
+        </properties>
+      </component>
+      <component id="7553" class="javax.swing.JLabel" binding="lbPassword">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4473925"/>
+          <font name="Apple Chancery" size="18" style="1"/>
+          <text value="Senha"/>
+        </properties>
+      </component>
+      <component id="7ca61" class="javax.swing.JPasswordField" binding="pfPassword">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4473925"/>
+          <font size="18"/>
+        </properties>
+      </component>
+      <component id="33b66" class="javax.swing.JLabel" binding="lbJaEmembro">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4473925"/>
+          <font name="Apple Chancery" size="18" style="1"/>
+          <foreground color="-15329605"/>
+          <text value="Ja e membro? Entrar"/>
+        </properties>
+      </component>
+      <component id="5297b" class="javax.swing.JButton" binding="btnSignUp" custom-create="true">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8226"/>
+          <font name="Apple Chancery" size="18" style="1"/>
+          <foreground color="-15329605"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <opaque value="false"/>
+          <text value="Registrar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
